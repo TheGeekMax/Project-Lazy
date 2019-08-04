@@ -109,9 +109,12 @@ after that you need to under the function that add the tile called
 this is how it work
 
 ```place(PImage img,int xcor, int ycor,int or)```
+
 type|name|what it does
 ----|----|------------
-Pimage|img| select the picture , use text
-int|xcor|x
-int|ycor|x
-int|or|x
+Pimage|img| select the picture , use text[index] for that
+int|xcor|select the x coordinate in tiles not pixel 
+int|ycor|select the y coordinate in tiles not pixel 
+int|or|rotate the picture (from the center of the selected tile) in degrees
+
+so scroll at the end of the `void setup()` function and start to use this function to add a tile, have fun
