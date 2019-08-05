@@ -18,7 +18,7 @@ to make road spritesheet or water spritesheet you will need [5 sprites](https://
  
  #### 1 - [center tile](https://imgur.com/vkg9VU8):
  
- center tile is the tile that will be in the background, need to don't have any transparent background.
+ center tile is the tile that will be in the background, need to don't have any transparent pixels.
  
  #### 2 - [corner tile](https://imgur.com/NAl5y3p):
  
@@ -49,7 +49,7 @@ the project have 2 apps : road maker and water maker these 2 apps don't generate
 
 to generate , you need to have all 5 tiles files in sprites (in .png) and after that you just need to run the program by clicking on the arrow when you launched the file, when the small window closed , go to the `output` folder and you will see your sprite.
 
-##change sprite size:
+## change sprite size:
 
 if you don't want to use 16x16 tile you can change tile you need to do for each app :
 
@@ -62,14 +62,17 @@ line|before|after
 
 and that's all !
 
-##add tiles:
+## add tiles:
 
 in this part i consider that you know basic programmation
+
 to add a tile you have 2 choice:
+
   1- you use all 5 tiles that aready exist
+  
   2- you add a sprite
   
-###adding sprite:
+### adding sprite:
 
 to add sprite you need to change the limits of the img array:
 
@@ -95,7 +98,7 @@ text[i] = loadImage("../sprites/tile(i+1).png");
 
 and your image is added ! 
 
-###add a tile
+### add a tile
 
 you need to exetend the size of the canvas :
 
@@ -103,8 +106,7 @@ line|code
 ----|----
 7|`size(64,192);` or `size(64,192);`
 
-after that you need to under the function that add the tile called
-`place();`
+after that you need to call the function `place();` that add the tile
 
 this is how it work
 
