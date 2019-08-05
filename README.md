@@ -1,6 +1,6 @@
 # Project-Lazy
 
-Project lazy is a project to make people more lazy to do spritesheet 
+Project lazy is a project to make people more lazy when working on spritesheet 
 
 originally made for world map builder but can be used for other app that need spritesheet
 
