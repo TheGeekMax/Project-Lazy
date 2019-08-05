@@ -14,7 +14,7 @@ originally made for world map builder but can be used for other app that need sp
  
  ### tile editing :
  
-to make road spritesheet or water spritesheet you will need [5 sprites](https://imgur.com/Z0zWKhu) and all sprite need to be in diferent files like [that](https://imgur.com/l2J1bI9), all sprite need to be in 16x16 , if you want to use diferent size scroll on `Change sprite size`:
+to make road spritesheet or water spritesheet you will need [5 sprites](https://imgur.com/Z0zWKhu) and all sprite need to be in diferent files like [that](https://imgur.com/l2J1bI9), all sprite need to be in 16x16 , if you want to use diferent size [click here](https://github.com/TheGeekMax/Project-Lazy/blob/master/README.md#change-sprite-size) or scroll on `Change sprite size`:
  
  #### 1 - [center tile](https://imgur.com/vkg9VU8):
  
