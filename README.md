@@ -104,7 +104,7 @@ you need to exetend the size of the canvas :
 
 line|code
 ----|----
-7|`size(64,192);`</br>or</br>`size(64,192);`
+7|<p align="center">`size(64,192);`</br>or</br>`size(64,192);`</p>
 
 after that you need to call the function `place();` that add the tile
 
