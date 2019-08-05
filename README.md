@@ -58,7 +58,7 @@ s = width of your pixelart;
 line|before|after
 ----|------|-----
 2|`int s = 16;`|`int s = s;`
-7|`size(64,192);`</br>or</br>`size(64,64);`|`size(s*4,s*12);`</br>or</br>`size(s*4,s*4);`
+7|<p align="center">`size(64,192);`</br>or</br>`size(64,64);`</p>|<p align = "center">`size(s*4,s*12);`</br>or</br>`size(s*4,s*4);`</p>
 
 and that's all !
 
@@ -104,7 +104,7 @@ you need to exetend the size of the canvas :
 
 line|code
 ----|----
-7|`size(64,192);` or `size(64,192);`
+7|`size(64,192);`</br>or</br>`size(64,192);`
 
 after that you need to call the function `place();` that add the tile
 
